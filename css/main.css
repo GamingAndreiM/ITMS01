@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "GM Hightop Demoversion";
+  font-style: normal;
+  font-weight: 400;
+  src: local("GM Hightop Demoversion"),
+    url("https://fonts.cdnfonts.com/s/8975/Gmhightop DEMO.woff") format("woff");
+}
+@font-face {
+  font-family: "Neueral";
+  font-style: normal;
+  font-weight: 200;
+  src: local("Neueral"),
+    url("https://fonts.cdnfonts.com/s/101423/neueral-extralight.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "PP Air";
+  font-style: normal;
+  font-weight: 200;
+  src: local("PP Air"),
+    url("https://fonts.cdnfonts.com/s/100430/PPAir-ExtraLightMono-BF64a4d481368bc.woff")
+      format("woff");
+}
+.navbar-brand {
+  font-family: "GM Hightop Demoversion";
+  text-shadow: 1px 1px #f5f5dc;
+}
+body {
+  background-color: #5f6f52;
+}
+
+.nav-background {
+  background-color: #a9b388;
+}
+.navbar-brand {
+  color: #000000;
+}
+.navbar-brand:hover {
+  color: #186f65;
+}
+.card-margin {
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.h1-design {
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+}
+.card-hover:hover {
+  background-color: #fefae0;
+}
+
+.card-border {
+  background-color: white;
+  height: 600px;
+  width: 600px;
+}
+button {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 300px;
+}
+button:hover {
+  background-color: #ffcdb2;
+}
+.btn-center {
+  text-align: center;
+}
+@media (max-width: 800.98px) {
+  .btn-width {
+    width: 100px;
+  }
+}
+.card {
+  background-color: #bbab8c;
+}
+
+.members-ul {
+  list-style: none;
+}
+.card-title {
+  font-family: "GM Hightop Demoversion";
+  font-size: 25px;
+}
+.welcome {
+  font-family: "Neueral";
+  color: #f5f5dc;
+  font-size: 80px;
+  text-shadow: 3px 3px #000000;
+}
+.li-font {
+  font-family: "PP Air";
+  font-size: 25px;
+}
+.p-size {
+  font-size: 20px;
+}
+.result {
+  font-size: 25px;
+  color: #b70404;
+}

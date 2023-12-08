@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITMS Discrete Math</title>
+
+    <!--Bootstrap/Main CSS-->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar nav-background">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Discrete Math</a>
+      </div>
+    </nav>
+    <!--form-->
+    <section class="h-100 h-custom container-fluid">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-lg-8 col-xl-6">
+            <div class="card rounded-3">
+              <img
+                src="./image/Tribonacci.png"
+                class="w-100"
+                style="
+                  border-top-left-radius: 0.3rem;
+                  border-top-right-radius: 0.3rem;
+                "
+                alt="Sample photo"
+              />
+              <div class="card-body p-4 p-md-5 card-color">
+                <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">
+                  Tribonacci Sequence
+                </h3>
+
+                <form
+                  class="px-md-2"
+                  onsubmit="calculateTribonacci(); return false;"
+                >
+                  <div class="form-outline mb-4">
+                    <label class="form-label p-size" for="tribo"
+                      >Enter the Sequence Number:</label
+                    >
+                    <input type="text" id="tribo" class="form-control" />
+                  </div>
+
+                  <div class="btn-center">
+                    <button type="submit" class="btn-width">Calculate</button>
+                  </div>
+                </form>
+                <div id="result" class="mt-4 result"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
